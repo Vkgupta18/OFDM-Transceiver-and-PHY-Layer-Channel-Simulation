@@ -1,0 +1,61 @@
+# This file must be committed to Git so that exclusions apply for everyone.
+
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.cover
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Accidental / local files
+tore .
+
+# Local notes / terminal scratch (not for version control)
+הרצה ב TERMINAL.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Internal / working docs (do not push to GitHub)
+docs/IMPLEMENTATION_PLAN.md
+docs/INTERVIEWER_EVALUATION.md
+docs/DOCUMENTATION_RATINGS.md
+docs/parameters_and_models_guide_hebrew.md
+docs/project_guide_hebrew.md
+
+# Validation smoke runs — timestamped JSON (regenerate with run_validation_smoke.py)
+results/validation/*.json
+# Matrix summary JSON (CSV may be kept as a pinned artifact; summaries are local)
+results/validation/validation_matrix_summary_*.json
+
+# Local overrides (keep results in git for portfolio)
+# results/
